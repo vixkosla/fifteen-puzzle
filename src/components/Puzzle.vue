@@ -71,6 +71,7 @@ export default {
         this.counter++
         this.$emit('counter', this.counter)
       }
+      if (this.checkGameScore()) alert('You won! Please reload the page for start new game.')
     },
     validateLocation (xi, yi, m) {
       return xi < 0 || xi > m - 1 || yi > m - 1 || yi < 0 ? false : true;
