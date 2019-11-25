@@ -1,0 +1,6 @@
+$cell-side: 3rem;
+$dimension: 4;
+
+$playground-side: $cell-side * $dimension + 1;
+$parametr-width: $playground-side / 2;
+

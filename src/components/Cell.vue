@@ -33,11 +33,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .cell {
-        width: 3rem;
-        height: 3rem;
+        width: $cell-side;
+        height: $cell-side;
         border: 1px solid yellow;
         text-align: center;
-        line-height: 3rem;
+        line-height: $cell-side;
         transition: transform 0.25s ease-in-out;
         font-size: 2rem;
         margin: 0.05rem;

@@ -37,7 +37,7 @@ export default {
 <style lang="scss" scoped>
     .timer {
         border: 1px solid red;
-        width: 6rem;
+        width: $parametr-width;
         text-align: center;
     }
 </style>

@@ -35,7 +35,7 @@ export default {
 
 <style scoped lang="scss">
     .container {
-        width: 13rem;
+        width: $playground-side;
         margin: 0 auto;
         font-family: 'Courier New', Courier, monospace;
 

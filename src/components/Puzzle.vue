@@ -137,8 +137,8 @@ export default {
   .playground {
     display: flex;
     flex-wrap: wrap;
-    width: 13rem;
-    height: 13rem;
+    width: $playground-side;
+    height: $playground-side;
     border: 0.05rem solid yellow;
     margin: 0.2rem auto;
     background-color: yellow;
